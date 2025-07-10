@@ -27,30 +27,31 @@ To access features available to admins use - Id: jaskaranyt123@gmail.com - Passw
 
 Routes Implemented:
 
-1. CartService:
+1. CartService:</br>
    ![Home](./assets/image02.png)
-2. OrderService:
+2. OrderService:</br>
    ![Home](./assets/image03.png)
-3. ProductService
+3. ProductService</br>
    ![Home](./assets/image03.png)
-4. OrderService
+4. OrderService</br>
    ![Home](./assets/image04.png)
-5. VerificationService
+5. VerificationService</br>
    ![Home](./assets/image05.png)
 
 The current folder is a monorepo. To view each service in detail. Their repository links on my profile are:
 
-1. ApiGateway: https://github.com/prestigious-protagonist/BareFoot_ApiGateway ␣␣
-   Deployed at: https://barefoot-apigateway.onrender.com
+1. ApiGateway: https://github.com/prestigious-protagonist/BareFoot_ApiGateway </br>
+   Deployed at: https://barefoot-apigateway.onrender.com</br>
 
-2. CartService: https://github.com/prestigious-protagonist/BareFoot_CartService
-   Deployed at: https://barefoot-cartservice.onrender.com
+2. CartService: https://github.com/prestigious-protagonist/BareFoot_CartService</br>
+   Deployed at: https://barefoot-cartservice.onrender.com</br>
 
-3. ProductService: https://github.com/prestigious-protagonist/BareFoot_ProductService
-   Deployed at: https://barefoot-productservice.onrender.com
+3. ProductService: https://github.com/prestigious-protagonist/BareFoot_ProductService</br>
+   Deployed at: https://barefoot-productservice.onrender.com</br>
 
-4. OrderService: https://github.com/prestigious-protagonist/BareFoot_OrderService
-   Deployed at: https://barefoot-orderservice.onrender.com
+4. OrderService: https://github.com/prestigious-protagonist/BareFoot_OrderService</br>
+   Deployed at: https://barefoot-orderservice.onrender.com</br>
 
-5. VerificationService: https://github.com/prestigious-protagonist/BAREFOOT_VerificationService
+5. VerificationService: https://github.com/prestigious-protagonist/BAREFOOT_VerificationService</br>
    Deployed at: https://barefoot-verificationservice.onrender.com
+   </br>
