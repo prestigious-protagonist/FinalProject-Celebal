@@ -40,17 +40,17 @@ Routes Implemented:
 
 The current folder is a monorepo. To view each service in detail. Their repository links on my profile are:
 
-1. ApiGateway: https://github.com/prestigious-protagonist/BareFoot_ApiGateway␣␣
-   Deployed at: https://barefoot-apigateway.onrender.com␣␣
+1. ApiGateway: https://github.com/prestigious-protagonist/BareFoot_ApiGateway ␣␣
+   Deployed at: https://barefoot-apigateway.onrender.com
 
-2. CartService: https://github.com/prestigious-protagonist/BareFoot_CartService␣␣
-   Deployed at: https://barefoot-cartservice.onrender.com␣␣
+2. CartService: https://github.com/prestigious-protagonist/BareFoot_CartService
+   Deployed at: https://barefoot-cartservice.onrender.com
 
-3. ProductService: https://github.com/prestigious-protagonist/BareFoot_ProductService␣␣
-   Deployed at: https://barefoot-productservice.onrender.com␣␣
+3. ProductService: https://github.com/prestigious-protagonist/BareFoot_ProductService
+   Deployed at: https://barefoot-productservice.onrender.com
 
-4. OrderService: https://github.com/prestigious-protagonist/BareFoot_OrderService␣␣
-   Deployed at: https://barefoot-orderservice.onrender.com␣␣
+4. OrderService: https://github.com/prestigious-protagonist/BareFoot_OrderService
+   Deployed at: https://barefoot-orderservice.onrender.com
 
-5. VerificationService: https://github.com/prestigious-protagonist/BAREFOOT_VerificationService␣␣
-   Deployed at: https://barefoot-verificationservice.onrender.com␣␣
+5. VerificationService: https://github.com/prestigious-protagonist/BAREFOOT_VerificationService
+   Deployed at: https://barefoot-verificationservice.onrender.com
