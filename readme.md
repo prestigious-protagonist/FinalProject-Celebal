@@ -8,9 +8,10 @@
 ## Features
 
 - User Authentication with **Auth0**
-- OTP-based Email Verification
+- OTP-based Email Verification for addresses
 - Rate Limiting
 - Add to Cart, Choose Size, Place Orders, Add Shoe, Add Shoe Variants, update shoe Variants
+- Add favourites, remove Favourites
 - Apply Coupons and Promo Codes
 - Admin Panel: Upload Products, Add Images & Variants
 - Redis Caching for Super Fast API Responses
@@ -24,7 +25,7 @@ Role Based Access Control: Managed by Auth0 </br>
 Application could be slow as it is deployed under the free tier plan. <br/>
 Each request after a specific time of inactivity leads to the cold start of the complete service. <br/>
 So for the first time features might take 15-20 seconds to load. <br/>
-
+Some routes are yet to be implemented, this frontend is the minimal representation of the product. </br>
 The MVP of this backend project can be viewed on <i>https://upes.vercel.app</i>
 
 To access features available to admins use - Id: jaskaranyt123@gmail.com - Password: !Qw12345
@@ -42,7 +43,7 @@ Routes Implemented:
 5. VerificationService</br>
    ![Home](./assets/image05.png)
 
-The current folder is a monorepo. To view each service in detail. Their repository links on my profile are:
+The current folder is a monorepo. To view each service in detail. Their repository links on my github profile are:
 
 1. ApiGateway: https://github.com/prestigious-protagonist/BareFoot_ApiGateway </br>
    Deployed at: https://barefoot-apigateway.onrender.com</br>
