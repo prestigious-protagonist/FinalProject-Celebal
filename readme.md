@@ -20,8 +20,12 @@ In this project I've implemented microservices. Each service has been deployed i
 
 ![Home](./assets/image01.png)
 
-Role Based Access Control: Managed by Auth0
-The MVP of this backend project can be viewed on https://upes.vercel.app
+Role Based Access Control: Managed by Auth0 </br>
+Application could be slow as it is deployed under the free tier plan. <br/>
+Each request after a specific time of inactivity leads to the cold start of the complete service. <br/>
+So for the first time features might take 15-20 seconds to load. <br/>
+
+The MVP of this backend project can be viewed on <i>https://upes.vercel.app</i>
 
 To access features available to admins use - Id: jaskaranyt123@gmail.com - Password: !Qw12345
 
