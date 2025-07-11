@@ -101,3 +101,26 @@ Screenshots from https://upes.vercel.app
     ![Home](./assets/newProd.png)</br>
 
 ### Place Order
+
+1. Review your order</br>
+   ![Home](./assets/reviewOrder.png)</br>
+2. Use Coupons</br>
+   ![Home](./assets/coupon.png)</br>
+3. Verify Address before placing the order</br>
+   ![Home](./assets/verifyAdd.png)</br>
+4. Send OTP</br>
+   ![Home](./assets/sendOtp.png)</br>
+5. OTP sent</br>
+   ![Home](./assets/OTPSENT.png)</br>
+6. Check OTP</br>
+   ![Home](./assets/email.png)</br>
+7. Email verified</br>
+   ![Home](./assets/verified.png)</br>
+8. Place Order </br>
+   ![Home](./assets/place.png)</br>
+9. Order Placed </br>
+   ![Home](./assets/placedOrder.png)</br>
+10. Order Confirmation
+    ![Home](./assets/OrderConfirmation.png)</br>
+11. Order Confirmation Mail
+    ![Home](./assets/delMail.png)</br>
