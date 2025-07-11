@@ -64,40 +64,40 @@ The current folder is a monorepo. To view each service in detail. Their reposito
 
 Screenshots from https://upes.vercel.app
 
-1. Home page
-   ![Home](./assets/home.png)
-2. Cart
-   ![Home](./assets/cart.png)
-3. Favourites
-   ![Home](./assets/favourites.png)
-4. My Orders
-   ![Home](./assets/orders.png)
-5. Product
-   ![Home](./assets/favourites.png)
-6. Add to Cart
-   ![Home](./assets/Add2Cart.png)
+1. Home page</br>
+   ![Home](./assets/home.png)</br>
+2. Cart</br>
+   ![Home](./assets/cart.png)</br>
+3. Favourites</br>
+   ![Home](./assets/favourites.png)</br>
+4. My Orders</br>
+   ![Home](./assets/orders.png)</br>
+5. Product</br>
+   ![Home](./assets/product.png)</br>
+6. Add to Cart</br>
+   ![Home](./assets/Add2Cart.png)</br>
 
 ### Admin Specific Features
 
-1. Add a new Product
-   ![Home](./assets/AddnewProduct.png)
-2. Provide product description
-   ![Home](./assets/AddProd1.png)
-3. Updated Product List
-   ![Home](./assets/Addprod2.png)
-4. Provide Variant: Though we have created a product, we must provide it a variant before uploading its picture. Eg. Black shoe is a variant of a product.
-   ![Home](./assets/options.png)
-5. Adding Variant
-   ![Home](./assets/addVariant.png)
-6. Variant Added
-   ![Home](./assets/VariantAdded.png)
-7. Add Image for the variant:
-   ![Home](./assets/options.png)
-8. Adding Image: List of variants will be shown here. Add image for the desired product.
-   ![Home](./assets/imageUpload1.png)
-9. Image Uploaded Successfully
-   ![Home](./assets/image2.png)
-10. View the newly added product
-    ![Home](./assets/newProd.png)
+1. Add a new Product</br>
+   ![Home](./assets/AddnewProduct.png)</br>
+2. Provide product description</br>
+   ![Home](./assets/AddProd1.png)</br>
+3. Updated Product List</br>
+   ![Home](./assets/Addprod2.png)</br>
+4. Provide Variant: Though we have created a product, we must provide it a variant before uploading its picture. Eg. Black shoe is a variant of a product.</br>
+   ![Home](./assets/options.png)</br>
+5. Adding Variant</br>
+   ![Home](./assets/addVariant.png)</br>
+6. Variant Added</br>
+   ![Home](./assets/VariantAdded.png)</br>
+7. Add Image for the variant:</br>
+   ![Home](./assets/options.png)</br>
+8. Adding Image: List of variants will be shown here. Add image for the desired product.</br>
+   ![Home](./assets/imageUpload1.png)</br>
+9. Image Uploaded Successfully</br>
+   ![Home](./assets/image2.png)</br>
+10. View the newly added product</br>
+    ![Home](./assets/newProd.png)</br>
 
 ### Place Order
