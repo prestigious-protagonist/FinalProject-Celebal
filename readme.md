@@ -7,6 +7,7 @@
 
 ## Features
 
+- Microservices Architecture
 - User Authentication with **Auth0**
 - OTP-based Email Verification for addresses
 - Rate Limiting
@@ -60,3 +61,43 @@ The current folder is a monorepo. To view each service in detail. Their reposito
 5. VerificationService: https://github.com/prestigious-protagonist/BAREFOOT_VerificationService</br>
    Deployed at: https://barefoot-verificationservice.onrender.com
    </br>
+
+Screenshots from https://upes.vercel.app
+
+1. Home page
+   ![Home](./assets/home.png)
+2. Cart
+   ![Home](./assets/cart.png)
+3. Favourites
+   ![Home](./assets/favourites.png)
+4. My Orders
+   ![Home](./assets/orders.png)
+5. Product
+   ![Home](./assets/favourites.png)
+6. Add to Cart
+   ![Home](./assets/Add2Cart.png)
+
+### Admin Specific Features
+
+1. Add a new Product
+   ![Home](./assets/AddnewProduct.png)
+2. Provide product description
+   ![Home](./assets/AddProd1.png)
+3. Updated Product List
+   ![Home](./assets/Addprod2.png)
+4. Provide Variant: Though we have created a product, we must provide it a variant before uploading its picture. Eg. Black shoe is a variant of a product.
+   ![Home](./assets/options.png)
+5. Adding Variant
+   ![Home](./assets/addVariant.png)
+6. Variant Added
+   ![Home](./assets/VariantAdded.png)
+7. Add Image for the variant:
+   ![Home](./assets/options.png)
+8. Adding Image: List of variants will be shown here. Add image for the desired product.
+   ![Home](./assets/imageUpload1.png)
+9. Image Uploaded Successfully
+   ![Home](./assets/image2.png)
+10. View the newly added product
+    ![Home](./assets/newProd.png)
+
+### Place Order
