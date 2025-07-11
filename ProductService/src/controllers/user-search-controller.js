@@ -335,5 +335,6 @@ module.exports = {
     getFavourites,
     removeFavourite,
     checkFavourite,
-    removeStock
+    removeStock, 
+    redis
 }

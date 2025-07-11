@@ -2,15 +2,20 @@ const express = require("express");
 const {order} = require("../../models/index");
 const { Op } = require("sequelize");
 const router = express.Router()
-const axios = require("axios")
+const axios = require("axios");
+const sendBasicEmail = require("../../utils/email-service");
+const { BASE_URL } = require("../../config/server-config");
 router.post('/placeOrder',(req, res, next) => {
     try {
         const data = req.body;
+        console.log("Line 11 "+data)
         if (!(data.items && data.price)) {
             throw new Error("Insufficient fields");
         }
         console.log("ITEMS:: "+data.items)
         req.validatedData = data;
+        
+        console.log("LIne 18 "+req.validatedData)
         next();
     } catch (error) {
         res.status(400).json({ error: error.message });
@@ -22,7 +27,7 @@ async (req, res, next) => {
     const { variantId, quantity, size } = req.body.items[0];
 
    const response = await axios.patch(
-  "http://localhost:3000/productService/api/user/decreaseSize",
+  `${BASE_URL}/productService/api/user/decreaseSize`,
   {
     variantsId: variantId,
     orderCount: quantity,
@@ -55,6 +60,35 @@ async (req, res, next) => {
         console.log("data is : " + JSON.stringify(data, null, 2))
 
         const response = await order.create(data)
+        console.log("RESPONSE IS : "+JSON.stringify(response, null, 2))
+        await sendBasicEmail(
+            "jaskaranyt123@gmail.com",         // sender
+            data.address.email,                             // recipient (user's email)
+            "Your Order is Confirmed – BareFoot Shoes 👟",
+            `
+            Hey,
+
+            Thank you for shopping with **BareFoot**! 🎉  
+            We’ve successfully received your order.
+
+            🧾 **Order ID**: ${response?.id}
+            
+
+            📦 **Shipping Address**:
+           
+            ${data.address.flatNumber},  
+            ${data.address.locality}, ${data.address.city} - ${data.address.state}  
+            Phone: ${data.address.phone}
+
+            We’ll notify you once your order is packed and shipped.
+
+            Thanks again for choosing BareFoot – where comfort meets style!
+
+            Warm regards,  
+            **The BareFoot Team**
+            `
+            );
+
         return res.status(201).json({
             msg: "Order placed successfully",
             data: response

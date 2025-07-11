@@ -1,4 +1,6 @@
+
 const {shoes, shoeImages, shoeVariants, sizes} = require("../models/index");
+const { redis } = require("../controllers/user-search-controller");
 class ProductRepository {
     async create(data, options) {
         try {
@@ -79,8 +81,11 @@ class ProductRepository {
                     id: shoeId
                 }
             }, options)
+            await redis.del('product')
             return true;
         } catch (error) {
+            
+        console.log(error)
             throw error;
         }
     }

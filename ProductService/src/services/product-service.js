@@ -191,6 +191,8 @@ class ProductService {
             }
             return true; 
         } catch (error) {
+            
+        console.log(error)
             throw error;
         }
     }

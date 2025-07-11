@@ -114,6 +114,7 @@ const removeProduct = async (req, res) => {
             data:[product]
         })
     } catch (error) {
+        console.log(error)
         await transaction.rollback();
         if(error.err) {
             res.status(404).json({
